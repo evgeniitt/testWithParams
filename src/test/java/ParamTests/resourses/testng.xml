@@ -1,0 +1,9 @@
+<suite name="First test suite">
+    <test name = "XMLtest">
+        <parameter name ="enteringString" value = "кто такой кук"/>
+        <parameter name ="checkingString" value = "кто такой кук"/>
+        <classes>
+            <class name="ParamTests.ParamTest"/>
+        </classes>
+    </test>
+</suite>
