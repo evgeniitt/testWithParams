@@ -1,7 +1,21 @@
 <suite name="First test suite">
     <test name = "XMLtest">
         <parameter name ="enteringString" value = "кто такой кук"/>
-        <parameter name ="checkingString" value = "кто такой кук"/>
+        <parameter name ="checkingString" value = "Кто такой кук"/>
+        <classes>
+            <class name="ParamTests.ParamTest"/>
+        </classes>
+    </test>
+    <test name = "XMLtest2">
+        <parameter name ="enteringString" value = "ключ съел кота"/>
+        <parameter name ="checkingString" value = "ключ съел кота"/>
+        <classes>
+            <class name="ParamTests.ParamTest"/>
+        </classes>
+    </test>
+    <test name = "XMLtest3">
+        <parameter name ="enteringString" value = "котопес"/>
+        <parameter name ="checkingString" value = "Котопес"/>
         <classes>
             <class name="ParamTests.ParamTest"/>
         </classes>
